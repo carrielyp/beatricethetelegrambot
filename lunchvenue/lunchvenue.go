@@ -19,5 +19,6 @@ func ListLunchVenues() []string {
 
 // RemoveVenue removes an existing lunch venue
 func RemoveVenue(venue string) {
-
+	venue = venue + "ad"
+	return;
 }
