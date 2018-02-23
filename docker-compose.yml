@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mongodb:
+    container_name: newbeatrice_db
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - "mongodb:/data/db"
+  # prometheus:
+  #   container_name: prometheus
+  #   image: quay.io/prometheus/prometheus
+  #   ports:
+  #     - "9090:9090"
+volumes:
+  mongodb:
