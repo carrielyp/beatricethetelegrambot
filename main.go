@@ -12,7 +12,7 @@ import (
 	mgo "gopkg.in/mgo.v2"
 )
 
-func main() {
+func ma in() {
 	gopath := os.Getenv("HOME")
 	logpath := gopath + "/logs.txt"
 
